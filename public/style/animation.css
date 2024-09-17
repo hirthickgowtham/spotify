@@ -1,0 +1,112 @@
+.login1:hover{
+    padding:12px 28px;
+    box-shadow: 3px 3px 3px 3px #393646;
+    cursor: pointer;
+}
+
+.signup:hover{
+    border:2px solid #f4eee0;
+    padding:10px 22px;
+    border-radius:20px ;
+    box-shadow: 3px 3px 3px 3px #393646;
+    cursor: pointer;
+
+}
+
+
+.scr-cont div>button:hover{
+    font-weight:600;
+    padding: 11px 21px;
+    font-size: 13.5px;
+    box-shadow: 2px 2px 2px 2px #393646;
+    cursor: pointer;
+}
+
+.select li:hover{
+    cursor: pointer;
+}
+
+.lang:hover{
+    border:2px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.play:hover{
+    background-image: linear-gradient(45deg,grey,#212121,#212121,grey);
+    box-shadow: 4px 4px 7px 0px  rgba(211,211,211,.7);
+    cursor: pointer;
+}
+
+.con p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:#f4eee0;
+}
+
+.icon img:hover{
+    cursor: pointer;
+}
+
+.menu div:hover{
+    opacity: .8;
+    cursor: pointer;
+
+}
+
+.icon img:hover{
+    opacity: 1;
+}
+
+.headline >h2:hover{
+    text-decoration:underline #f4eee0; 
+    cursor: pointer;
+}
+
+.headline p:hover{
+    text-decoration:underline #f4eee0; 
+    opacity: .7;
+    cursor: pointer;
+}
+
+.arrow img:hover{
+    cursor: not-allowed;
+}
+
+.lib-icon div:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.lib-icon img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    visibility: visible;
+  }
+
+
+  @keyframes pop{
+    0%{
+        top:35%;
+        z-index: -1;
+        
+    }
+
+    50%{
+        top:30%;
+        z-index: 2;
+    }
+
+    100%{
+        top:25%;
+        z-index: 2;
+    }
+  }
+
+  .pl-but{
+    animation: pop .2s ease-in both;
+  }
