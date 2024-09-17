@@ -1,4 +1,4 @@
-#Spotify clone
+# Spotify clone
 
 This is my first repository with HTML, CSS and JS spotify clone.
 
