@@ -1,3 +1,3 @@
-This is repository is my first HTML, CSS and JS spotify clone.
+This is my first repository with HTML, CSS and JS spotify clone.
 
 ![alt text](image.png)
